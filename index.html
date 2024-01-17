@@ -2,49 +2,257 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Web-site</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="Group 40071 (2).png">
+    <link rel="stylesheet" href="style.css">
+    <title> Travelers Net | Home</title>
 </head>
 <body>
     <header>
-        <div class="container banner">
-            <div class="travel">
-                <img src="Images/Group 40071 (2).png" alt="">
-                <h1 class="travel">Go <span class="primary">Travel</span> </h1>
-            </div>
-            <div class="nav">
-                <li class="a"> <span class="primary">Home</span> </li>
-                <li class="a">Destination</li>
-                <li class="a">package</li>
-                <li class="a">Tour</li>
-                <li class="a">Contact</li>
-            </div>
-
-        </div>
-        <div class="container your">
-            <div class="background-img">
-                <div class="explore">
-                    <h2>Explore Your Travel</h2>
-                </div>
-                <div class="your">
-                    <p>
-                        Embark on a journey through vibrant cultures, picturesque landscapes, and diverse experiences, where every destination becomes a chapter in the story of your life.</p>
-                </div>
-                <div class="input">
-                     <input type="Where Go" name="" id="" placeholder="Where Go">
-                     <input type="When" name="" id="" placeholder="When">
-                     <input type="selec type" name="" id="" placeholder="selec type">
-                     <input type="search" name="" id="" placeholder="search">
-                </div>
-            </div>
-        </div>
-    </header>
+    <div id="logo">
+      <img src="Group 40071 (2).png" alt="Logo">
+      <h1>Travelers <span> Net</span></h1>
+    </div>
+    <input type="checkbox" id="hamburger-menu">
+    <label for="hamburger-menu" class="hamburger-icon">
+      <div></div>
+      <div></div>
+      <div></div>
+    </label>
+    <nav>
+      <a href="#" class="selected">Home</a>
+      <a href="#">Packages</a>
+      <a href="#">Testimonials</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
     <main>
+       <section class="hero">
+        <div class="hero-title">
+        <h1>Explore Your Travel</h1>
+        <p>No matter where you belong the destinations of our website <br>
+          will make you feel like you belong somewhere else, somewhere better.
 
+        </p>
+      </div>
+      <div class="hero-submission">
+        <form action="#" id="hero-form">
+          <input type="text" placeholder="Where To" required>
+          <select name="time" id="time" >
+            <option value="">When</option>
+            <option value="January 2024">January 2024</option>
+            <option value="February 2024">February 2024</option>
+          </select>
+          <select name="type" id="type" >
+            <option value="">Select Type</option>
+            <option value="hotel">Hotel</option>
+          </select>
+          <button type="Submit" value="submit"><i class="fas fa-light fa-magnifying-glass"></i> Find Now</button>
+        </form>
+      </div>
+       </section>
+       <section class="popular-des">
+        <div class="description">
+          <h2>Our Popular Tours</h2>
+          <span>Embark on unforgettable journeys with our selection of popular tours that cater
+             to diverse tastes and preferences. At Travelers.net, we are committed to 
+             providing enriching travel experiences that leave lasting memories. Discover the allure of our most sought-after tours below:</span>
+          <ul>
+            <li>
+              Immerse yourself in the vibrant energy of iconic cities. Our city escape tours offer a perfect
+               blend of cultural exploration and modern adventures. 
+            </li>
+            <li>
+              Connect with the natural wonders of the world through our nature retreat tours. Experience 
+              breathtaking landscapes, serene environments, and the thrill of outdoor activities.
+            </li>
+            <li>
+               Delve into the rich tapestry of diverse cultures with our cultural expeditions. Explore 
+               ancient traditions, savor local cuisines, and engage with communities.
+            </li>
+          </ul>
+          <p>At Travelers.net, we believe in curating journeys that go beyond ordinary travel.
+             Our popular tours are designed to captivate your senses, ignite your curiosity, and create 
+             memories that linger. </p>
+          <button>
+            Read More
+          </button>
+        </div>
+        <img src="Rectangle 4.png" alt="Mountain">
+       </section>
+        <section class="destinations">
+          <div class="dest-des">
+            <h3>Choose Your Destination</h3>
+            <p>At Travelers Net, we believe in curating journeys that go beyond
+               ordinary travel. Our popular tours are designed to captivate your
+                senses, ignite your curiosity, and create memories that linger.
+                 Join us on these exceptional adventures, where every moment is
+                  an opportunity for discovery. Choose us for 
+                  unparalleled travel experiences that leave a lasting imprint 
+                  on your wanderlust-filled heart.</p>
+          </div>
+          <div class="dest-image">
+            <div class="maldive">Maldive</div>
+            <div class="indonesia">Indonesia</div>
+            <div class="srilanka">Sri Lanka</div>
+            <div class="north">North America</div>
+            <div class="kashmir">Kashmir</div>
+            <div class="bangladesh">Bangladesh</div>
+            <div class="bandarban">Bandarban</div>
+          </div>
+          
+        </section>
+        <section class="why-us">
+          <div class="why-us-des">
+            <h2>Why Choose Us ?</h2>
+            <p>Embarking on a journey is more than just reaching a 
+              destination; it's about the experiences, the 
+              memories, and the joy of discovery. we take pride in being your trusted travel companion, offering a plethora of reasons why choosing us is your key to unparalleled adventures.</p>
+          </div>
+          <div class="our-service">
+            <div class="hotel">
+              <img src="hotel.png" alt="Hotel">
+              <span>Handpicked Hotels</span>
+              <p>With years of experience in crafting dream 
+                vacations, our team of travel experts possesses
+                 in-depth knowledge of diverse destinations. 
+                 </p>
+            </div>
+            <div class="service">
+              <img src="customer-service.png" alt="Service">
+              <span>World Class Service</span>
+              <p>Quality is at the core of our service. From the
+                 selection of accommodations to transportation and 
+                 guided tours, we prioritize excellence. </p>
+            </div>
+            <div class="price">
+              <img src="best-price.png" alt="Price">
+              <span>Best Price Gurantee</span>
+              <p>Your satisfaction is our top priority. Our 
+                customer-centric approach means we listen to 
+                your needs.</p>
+            </div>
+          </div>
+        </section>
+        <section class="deals-discounts">
+          <div class="deals-discount-title">
+            <h3>Deals & Discounts</h3>
+            <p>Discover the joy of savings! Our latest discounts are designed to brighten your day. Dive into incredible deals on a wide range of products. Act fast – these offers won't last forever!</p>
+          </div>
+          <div class="our-locations">
+            <div class="location-one">
+              <div class="loc-det">
+                <div class="location-des">
+                    
+                      <i class="fas fa-regular fa-clock"> <span> 7 Day/6 Night</span></i>
+                      <i class="fas fa-regular fa-user-group"><span> Max: 10</span></i>
+                      <i class="fas fa-regular fa-location-dot"> <span> Indonesia</span></i>
+                    
+                </div>
+                <div class="location-title">
+                      <h2>Trip to Bali</h2>
+                      <p>Santorini Calling! Indulge in the charm of white-washed buildings against the Aegean Sea. Immerse yourself in rich history, delectable cuisine, and the warmth of Greek hospitality.</p>
+                      <span class="price-des"> Price: £500-£650</span>
+                      <button>Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="location-two">
+              <div class="loc-det">
+                <div class="location-des">
+                    
+                      <i class="fas fa-regular fa-clock"> <span>7 Day/6 Night</span></i>
+                      <i class="fas fa-regular fa-user-group"><span>Max: 10</span></i>
+                      <i class="fas fa-regular fa-location-dot"> <span>Malaysia</span></i>
+                    
+                </div>
+                <div class="location-title">
+                      <h2>Trip to Santorini</h2>
+                      <p>Experience Santorini Bliss! From the iconic blue-domed churches of Oia and the vibrant cities</p>
+                      <span class="price-des"> Price: £500-£650</span>
+                      <button>Book Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="location-three">
+              <div class="loc-det">
+                <div class="location-des">
+                    
+                      <i class="fas fa-regular fa-clock"> <span>4 Day/5 Night</span></i>
+                      <i class="fas fa-regular fa-user-group"><span>Max: 5</span></i>
+                      <i class="fas fa-regular fa-location-dot"> <span>Greece</span></i>
+                    
+                </div>
+                <div class="location-title">
+                      <h2>Trip to Ibliza</h2>
+                      <p>Santorini Unveiled! Uncover the secrets of this Cycladic gem. Stroll through narrow streets, indulge in delectable local dishes, and witness sunsets that will etch themselves into your heart.</p>
+                      <span class="price-des"> Price: £400-£650</span>
+                      <button>Book Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+            
+          <button type="button" id="deals-btn">See More</button>
+          
+        </section>
+        <section class="documentary">
+          <div class="doc-des">
+            <h2>A Simple Yet Perfect Place <br> To Get Lost </h2>
+            <span>Pack your bags for a sun-soaked adventure. Whether you're wandering through ancient ruins or relaxing on volcanic beaches, Santorini promises an unforgettable escape.</span>
+            <ul>
+              <li>Santorini Serenity Beckons!  Escape to a world of serenity and sophistication. Santorini invites you to discover hidden gems, savor local delicacies.</li>
+              <li>Discover Santorini's Charms!  Picture-perfect sunsets, charming villages, and azure waters – Santorini paints a canvas of beauty. Your dream getaway starts here. </li>
+            </ul>
+            <button>See More</button>
+          </div>
+          <div class="doc-video">
+            <iframe  src="https://www.youtube.com/embed/Cn4G2lZ_g2I?si=84ZOicmjXb-cBxdS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </section>
+        <section class="newsletter">
+          <div class="letter-box">
+            <h3>Newsletter</h3>
+            <p>Get your daily dose of travel news & tips. <br> Sign up today!</p>
+            <form action="#">
+              <input type="text" placeholder="Enter Your Name">
+              <input type="email" placeholder="Enter Your Email">
+              <button type="Submit">Subscribe</button>
+            </form>
+          </div>
+          <div class="deal">
+            <div class="discount">
+              <p>travelers.net</p>
+            <span>Save up to 70%</span>
+            </div>
+            
+          </div>
+        </section>
+        
+        
     </main>
-    <footer>
+      <footer >
+       <div class="hero-footer">
+        <img src="Group 40071 (2).png" alt="icon">
+        <h1>Travelers <span>Net</span></h1>
 
+       </div>
+       <p>At Travelers Net, we believe in curating journeys that go beyond ordinary travel.
+         Our popular tours are designed to captivate your senses, ignite your curiosity,
+          and create memories that linger. Join us on these exceptional adventures,
+           where every moment is an opportunity for discovery. Choose us for unparalleled travel experiences that leave a lasting imprint on your wanderlust-filled heart.</p>
+       <div class="social">
+        <i class="fas fa-brands fa-twitter"></i>
+        <i class="fas fa-brands fa-facebook-f"></i>
+        <i class="fas fa-brands fa-instagram"></i>
+        <i class="fas fa-brands fa-github"></i>
+       </div>
+       <div class="border"></div>
+       <span>&COPY; 2024, All Rights Reserved</span>
     </footer>
+    <script src="https://kit.fontawesome.com/2b7a164169.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
